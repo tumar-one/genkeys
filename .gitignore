@@ -1,0 +1,36 @@
+# Binaries
+genkeys
+*.exe
+*.out
+*.test
+
+# Build directories
+/build/
+bin/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Go modules (optional)
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# IDE/editor config
+.vscode/
+.idea/
+*.code-workspace
+
+# Docker-related
+*.tar
+*.bak
+docker-compose.override.yml
+
+# GitHub workflow artifacts (if used locally)
+.github/*.log
+.github/*.tmp
